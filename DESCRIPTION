@@ -9,4 +9,4 @@ Description: OpenCPU App for markdown package
 License: Apache2
 Depends:
     knitr
-Imports: leaflet, plotly, evaluate, crosstalk
+Imports: leaflet, plotly, webshot, crosstalk
