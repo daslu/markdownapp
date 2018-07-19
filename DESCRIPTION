@@ -9,4 +9,4 @@ Description: OpenCPU App for markdown package
 License: Apache2
 Depends:
     knitr
-Imports: ggplot2, plotly, gsheet, googlesheets, dplyr, purrr
+Imports: ggplot2, plotly, gsheet, googlesheets, dplyr, purrr, rmarkdown
