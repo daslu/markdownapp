@@ -3,8 +3,8 @@
 
 #' @export
 rmdtext <- function(text){
-  writeLines(text, con="input.Rmd");
-  rmarkdown::render("input.Rmd", output="output.html");
+  writeLines(text, con="output.Rmd");
+  rmarkdown::render("output.Rmd");
   invisible();
 }
 
